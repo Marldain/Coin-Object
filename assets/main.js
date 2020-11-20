@@ -22,10 +22,10 @@
     toHTML: function () {
       const image = document.createElement("img");
       if (this.state == 0) {
+        image.src = "./assets/images/Uruguay_sm.jpg";
+      } else {
         image.src =
           "./assets/images/Back-Good-Luck-Heads-I-Win-Tails-Lose-Challenge-Gold-Coins.jpg";
-      } else {
-        image.src = "./assets/images/Uruguay_sm.jpg";
       }
       return image;
     },
